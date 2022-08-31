@@ -1,0 +1,109 @@
+.listaDeTareas {
+    background: #333;
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    margin: 40px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ListaDeTareasContenedor{
+    background: #ccc;
+    width: 500px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.listaDeTareas h1{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom:1px solid #333 ;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.tareasListaContenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tareaContenedor {
+    min-height: 60px;
+    border-radius: 7px 7px 7px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+    width: 90%;
+    color: #eee;
+    margin: 4px 0;
+}
+
+.tareaContenedor:nth-child(3n +1) {
+    background: rgb(0, 136, 61);
+}
+
+.tareaContenedor:nth-child(3n +2) {
+    background: rgb(2, 175, 80);
+}
+
+.tareaContenedor:nth-child(3n +3) {
+    background: rgb(3, 201, 92);
+}
+.tareaContenedor.completada {
+    background: #555;
+    text-decoration: line-through;
+
+}
+
+.tareaIcono {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+svg.tareaIcono:hover {
+    color: #ff0000;
+    transition: .5s;
+}
+
+.tareaForm{
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+
+}
+
+.tareaForm input{
+    height: 40px;
+    border: 1px solid #042f80;
+    border-radius: 7px 0 0 7px;
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.tareaForm button{
+    background: #042f80;
+    color: #fff;
+    width: 30%;
+    border-radius: 0 7px 7px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.tareaForm button:hover{
+    color: rgb(0, 183, 255);
+    transition: .5s;
+}
