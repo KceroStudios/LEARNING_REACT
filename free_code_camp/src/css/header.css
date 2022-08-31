@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+  }
+
+  .header img {
+    width: 70px;
+    margin-right: 15px;
+}
+
+.header h1{
+    border-bottom: 2px solid rgb(0, 238, 255);
+}

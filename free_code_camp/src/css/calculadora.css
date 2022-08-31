@@ -1,0 +1,116 @@
+
+
+.calculadora {
+    background-color: #333;
+    background-image: url(../image/sombra-calc.png);
+    background-repeat: repeat-y;
+    color: #fff;
+    border-radius: 5px;
+    background-size: contain;
+    width: fit-content;
+}
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px 5px 25px;
+    align-items: center;
+}
+
+.brand h4{
+    font-size: 20px;
+}
+
+.brand h4 span{
+    color: royalblue;
+}
+
+.brand h4 i{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.fila {
+    display: flex;
+    flex: 1 1;
+}
+
+.botonCalculador {
+    background: none;
+    color: #eee;
+    font-size: 25px;
+    border-left: 1px solid #222;
+    border-right: 1px solid #4444;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #4444;
+    padding: 5px;
+    display: flex;
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    user-select: none;
+}
+
+.botonCalculador:hover, .botonClear:hover {
+    background: rgba(17, 17, 17, 0.279);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.botonCalculador:active, .botonClear:active {
+    font-size: 35px;
+    transition: .5s;
+}
+
+.operador{
+    color:rgb(39, 183, 3)
+}
+
+.pantalla{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    background-image: url(../image/sombra-calc.png);
+    background-repeat: repeat-y;
+    color: #fff;
+    border-radius: 5px;
+    background-size: contain;
+}
+
+.pantalla .input {
+    background: #222;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    white-space: nowrap;
+    padding: 0 10px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    border-top: 1px solid #333;
+    width: 215px;
+}
+
+/* .botonClear {
+    background: #222;
+    height: 50px;
+    border-radius: 7px;
+    margin: 10px 5px 15px 5px;
+    color: rgb(189, 11, 11);
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+} */
