@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { react } from "react";
 
 const App = () => {
-  const [contador, setContador] = useState(0);
-  return (
+  return(
     <div>
-      contador: {contador};
-      <button onClick={() => setContador(contador + 1)}>Incrementar</button>
+      <h1>HOOKS</h1>
+      <ul>
+        <li>01. useState</li>
+        <li>02. useReducer</li>
+        <li>01. useRef</li>
+      </ul>
+      <i>Reemplazar en app.jsx</i>
     </div>
   )
 }
