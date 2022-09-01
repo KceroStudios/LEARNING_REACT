@@ -2,8 +2,12 @@
 A P R E N D I E N D O   R E A C T
 ---------------------------------------------
 
-Carrito de compras con componentes de clase (solo como repaso)
+unidad 7 concluida
+Introdujimos componentes funcionales y algunos HOOKS:
 
-BASE:
-MASTER
-----CARRITO-dev
+- userState
+- useReducer
+- useRef
+
+
+
